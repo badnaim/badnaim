@@ -74,6 +74,12 @@ body {
     align-items: center;
 }
 
+.bttn:hover {
+    background: #f0ae5d;
+    color:white;
+    cursor:pointer;
+}
+
 
 .nav2 {
     margin-left: 70%;
@@ -168,7 +174,7 @@ body {
 
 .butt {
     background: #F58A07;
-    color: white;
+    color: #DCEAF5;
     height: 54px;
     width: 199px;
     left: 320px;
@@ -181,6 +187,17 @@ body {
     letter-spacing: 0px;
 }
 
+.butt:hover {
+    background: #a36519;
+    cursor: pointer;
+}
+
+.scrip:hover {
+    color: #F58A07;
+    cursor: pointer;
+    text-shadow: 10px black;
+}
+
 .scrip {
     font-size: 20px;
     font-weight: 300;
@@ -189,6 +206,7 @@ body {
     line-height: 17px;
     letter-spacing: 0px;
     color: #1D3444;
+
 }
 
 .neg32 {
@@ -306,6 +324,11 @@ body {
     font-family: "Poppins-Medium', sans-serif";
     color:#F58A07;
     line-height: 106.5%;
+}
+
+.negyum:hover {
+    font-family: "Poppins-Bold', sans-serif";
+    cursor: pointer;
 }
 
 /* ----------------box1---------------- */
